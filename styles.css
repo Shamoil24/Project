@@ -1,0 +1,98 @@
+body{
+   
+    font-family: "Poppins", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-image: url(pearl.png);
+    background-size: contain;
+}
+h1{
+    font-size: 4rem;
+    
+}
+h2{
+    font-size: 3rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 40%;
+   height:20%;
+    }
+
+#one{
+  text-align:center;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: auto;
+  font-style:normal;
+  font-weight: bolder;
+  border-color: #000000;
+  border-style: solid;
+  color: rgb(28, 57, 187);
+}
+
+
+
+#three{
+    text-align:center;
+   font-size: 30px;
+    margin-top: 5px;
+    border-style: solid;
+    color: rgb(28, 57, 187);
+    margin-right: 2px;
+    border-color: #000000;
+}
+#four{
+    text-align: center  ;
+    border-style: solid;
+    font-size: 30px;
+    margin-top: 5px;
+    color: rgb(28, 57, 187);
+   
+   
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 12px;
+    padding: 12px;
+    font-size: 40px;
+    
+    
+    
+}
+nav li{
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+footer{
+    display: flex;
+}
+div{
+    flex:1;
+   
+   
+}
+div > img{
+    max-width: 140px;
+    margin-top: 10px;
+    
+}
+div >p{
+    text-align: end;
+    text-decoration: overline;
+}
